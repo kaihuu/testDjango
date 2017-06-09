@@ -33,6 +33,13 @@
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="cms\admin.py" />
+    <Compile Include="cms\apps.py" />
+    <Compile Include="cms\migrations\__init__.py" />
+    <Compile Include="cms\models.py" />
+    <Compile Include="cms\tests.py" />
+    <Compile Include="cms\views.py" />
+    <Compile Include="cms\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="testDjango\__init__.py" />
     <Compile Include="testDjango\settings.py" />
@@ -49,6 +56,8 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="cms\" />
+    <Folder Include="cms\migrations\" />
     <Folder Include="testDjango\" />
   </ItemGroup>
   <ItemGroup>
